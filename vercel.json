@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
         {
-            "src": "RegistroHoras/servidor/app.js",
+            "src": "RegistroHoras/cliente/index.html",
             "use": "@vercel/node"
         }
     ],
     "routes": [
         {
             "src": "(.*)",
-            "dest": "RegistroHoras/servidor/app.js"
+            "dest": "RegistroHoras/cliente/index.html"
         }
     ]
 }
